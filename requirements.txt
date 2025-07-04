@@ -1,15 +1,47 @@
-fastapi
-uvicorn
-praw
-cloudinary
-asyncpg
-supabase
-python-dotenv
-httpx
-python-multipart
-pydantic 
-email-validator
-passlib
-bcrypt
-google-generativeai
-python-jose[cryptography]
+# FastAPI and web framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# Database and ORM
+supabase>=2.0.0
+asyncpg>=0.29.0
+
+# Authentication and security
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+bcrypt>=4.0.1
+python-dotenv>=1.0.0
+
+# Data validation and models
+pydantic>=2.0.0
+email-validator>=2.0.0
+
+# HTTP and networking
+httpx>=0.25.0
+requests>=2.31.0
+
+# Cloud storage and media
+cloudinary>=1.35.0
+
+# Social media scraping
+praw>=7.7.0
+instagrapi>=2.0.0
+instaloader>=4.10.0
+
+# AI and machine learning
+google-generativeai>=0.3.0
+
+# Task scheduling
+APScheduler>=3.10.0
+
+# Email
+# Note: smtplib and email are part of Python standard library
+
+# Additional utilities
+python-dateutil>=2.8.2
+typing-extensions>=4.8.0
+
+# Development and testing (optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
