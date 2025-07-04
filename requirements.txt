@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+praw
+cloudinary
+asyncpg
+supabase
+python-dotenv
+httpx
+python-multipart
+pydantic 
+email-validator
+passlib
+bcrypt
+google-generativeai
+python-jose[cryptography]
